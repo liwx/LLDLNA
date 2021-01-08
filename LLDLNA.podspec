@@ -30,13 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LLDLNA/Classes/**/*'
+  s.source_files = 'LLDLNA/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'LLDLNA' => ['LLDLNA/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+    s.dependency 'GDataXML-HTML', '1.4.1'
+    s.dependency 'CocoaAsyncSocket', '7.6.5'
+
+      
 end

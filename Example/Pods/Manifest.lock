@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - GDataXML-HTML (1.4.1)
+  - LLDLNA (0.1.0):
+    - CocoaAsyncSocket (= 7.6.5)
+    - GDataXML-HTML (= 1.4.1)
+
+DEPENDENCIES:
+  - LLDLNA (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - GDataXML-HTML
+
+EXTERNAL SOURCES:
+  LLDLNA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  GDataXML-HTML: a4f11079b48d9fe96ff1fe478943a317185227e2
+  LLDLNA: ab0ceacacce75add84cc3efbedaccf49bdadab6c
+
+PODFILE CHECKSUM: a6193bba5c3d10f7d3a6d44607bfac725c7e451e
+
+COCOAPODS: 1.10.0
